@@ -1,6 +1,6 @@
 # sysHealth
 
-This package provides sysHealth service for both web service on 8080 port and ros topic on /sysHealth
+This package provides sysHealth services for both web service on 8080 port and ros topic on /sysHealth
 
 # Installation
 
@@ -11,9 +11,12 @@ This package provides sysHealth service for both web service on 8080 port and ro
 python web module is needed. To install, you can issue following command:
 
     $ sudo pip install lpthw.web
+# Run
+
+    $ rosrun sysHealth sysHealth.py
 
 # Check
-* http://ServerIP:8080/sysHealth   // You should see a 200 OK with "good"
-* rostopic echo /sysHealth         // You should see a "good" string
+* HTTP browse http://ServerIP:8080/sysHealth   // You should see a 200 OK with "good"
+* rostopic echo /sysHealth                     // You should see a "good" string
 
 
