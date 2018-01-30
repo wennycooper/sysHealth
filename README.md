@@ -14,14 +14,14 @@ You may need to install python web module with following command:
     
 You may need to modify the script pathname of Popen line in sysHealth.py
 
-    $ vi sysHealth
+    $ vi sysHealth.py
 
 # Run
 
     $ rosrun sysHealth sysHealth.py
 
 # Check
-* HTTP browse http://ServerIP:8080/sysHealth   // You should see a 200 OK with "good"
-* rostopic echo /sysHealth                     // You should see a "good" string
+* HTTP browse http://ServerIP:8080/sysHealth   (You should see a 200 OK with "good")
+* rostopic echo /sysHealth                     (You should see a "good" string)
 
 
