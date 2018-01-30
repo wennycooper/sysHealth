@@ -8,11 +8,11 @@ This package provides sysHealth services for both web service on 8080 port and r
     $ rospack profile
 
 # Dependancy
-* You may need to install python web module with following command:
+1. You may need to install python web module with following command:
 
     $ sudo pip install lpthw.web
     
-* You may need to modify the script pathname of Popen line in sysHealth.py
+2. You may need to modify the script pathname of Popen line in sysHealth.py
 
     $ vi sysHealth
 
